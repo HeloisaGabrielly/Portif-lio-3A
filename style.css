@@ -1,0 +1,102 @@
+
+/*Fonte baixada para ser usada*/
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+/*Declarando cores*/
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: 	#778899;
+    --cor-destaque: #C92BFC;
+}
+
+
+/*Estilizando o corpo da página em geral*/
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+}
+
+
+/*Estilizando o cabeçalho da página*/
+header {
+    padding: 1rem 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+}
+
+header img {
+    border: 2px solid var(--cor-destaque);
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+}
+
+
+/*Estilizando o rodapé da página*/
+footer a {
+    color: var(--cor-principal)
+}
+
+footer a:hover {
+    color: var(--cor-destaque);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*Estilizando os cards de projetos*/
+.card {
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+
+/*Estilizando uma classe*/
+.lead {
+    color: var(--cor-destaque);
+    font-weight: 700;
+}
+
+
+/*Estilizando titulos*/
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+    margin-top: 2rem;
+    padding-bottom: 0.5rem;
+}
+
+.badge {
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/*Estilizando uma classe*/
+.btn-light {
+    background-color: var(--cor-destaque);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+}
+
+.btn-light:hover {
+    background-color: #a420c9;
+}
+
+
+
+
+
+
+
+
+
+
+
