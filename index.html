@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" 
+        crossorigin="anonymous">
+
+        <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"/>
+
+        <link rel="stylesheet" href="style.css">
+
+        <title> Meu portfólio </title>
+    </head>
+
+    <body>
+
+        <header class="container text-center">
+            <img src="img/avatar.jpg" class="rounded" alt= "avatar da Heloisa" width="200">
+    
+            <p class="lead">Olá, sou a Heloisa</p>
+
+            <h1>Estou estudando Programação</h1>
+
+            <p>Estou cursando o ultimo ano do ensino médio, e sou nova nessa area de tecnologia. 
+            Aqui você poderá acompanhar minha evolução. Veja os projetos que já desenvolvi! </p>
+            
+            <p>Minhas habilidades</p>
+    
+            <div>
+                <span class="badge bg-secondary">HTML</span>
+                <span class="badge bg-secondary">CSS</span>
+                <span class="badge bg-secondary">JavaScript</span>
+                <span class="badge bg-secondary">Scratch</span>
+            </div>
+        </header>
+
+        <main class="container mt-5">
+
+            <h2>Meus projetos</h2>
+            
+            
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+                <!-- Projeto 1 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="img/projetoCorrida.jpeg" class="card-img-top" alt="Imagem do primeiro projeto" />
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Projeto jogo de corrida</h5>
+                      <p class="card-text">Este projeto é um jogo interativo...</p>
+                      <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modal1">Veja mais</button>
+                    </div>
+                  </div>
+                </div>
+              
+                <!-- Projeto 2 -->
+                <div class="col">
+                  <div class="card">
+                    <img src="img/projetoMonalisa.jpeg" class="card-img-top" alt="Imagem do segundo projeto" />
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Projeto Monalisa</h5>
+                      <p class="card-text">Este projeto é uma versão divertida...</p>
+                      <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#modal2">Veja mais</button>
+                    </div>
+                  </div>
+                </div>
+              
+              </div>
+              
+        </main>
+
+        <!-- Modal 1 -->
+        <div class="modal" id="modal1" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Jogo da corrida</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>Este projeto é um jogo simples e divertido em que animais como cachorro, tartaruga, galinha e girafa 
+                            competem para ver quem cruza a linha de chegada primeiro. Cada vez que o jogo é iniciado, 
+                            os movimentos dos personagens são aleatórios, o que torna cada corrida diferente. 
+                            Esse projeto me mostrou que é possível aprender se divertindo e usar a programação como ferramenta para 
+                            criar jogos interativos e criativos. 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal 2 -->
+        <div class="modal" id="modal2" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Projeto Monalisa</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>A Monalisa Moderna é uma releitura criativa feita com formas geométricas simples. Usando círculos, triângulos e 
+                            linhas, montei um rosto com expressão e estilo próprio, mostrando como é possível fazer arte com código. 
+                            Esse projeto me ensinou que programação não é só números e comandos, mas também uma 
+                            forma de expressar ideias, explorar estilos visuais e transformar a tela em uma 
+                            tela de pintura digital.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <footer class="container py-5 text-center">
+            <h2>Entre em contato</h2>
+            <div>
+              <i class="bi bi-github"></i>
+              <a href="https://github.com/HeloisaGabrielly">GitHub</a>
+            </div>
+            <p class="my-5 text-center">
+              © Copyright 2024. Produzido por Heloisa
+            </p>
+          </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" 
+        crossorigin="anonymous"></script>
+    </body>
+</html>
+
+
